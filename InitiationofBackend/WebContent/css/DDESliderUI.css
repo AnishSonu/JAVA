@@ -1,0 +1,197 @@
+.hidden {
+    display: none ;
+    padding: 0px,0px,0px,0px;
+}
+.panel-vertical-align{
+	float:left; 
+	 writing-mode: vertical-rl;
+    text-orientation: upright;
+     position: absolute;
+    top:16%;
+    left:-2%; 
+    z-index: 2;
+ 
+}
+.Custom-Cursor{
+	cursor:inherit;
+ cursor: move; /* fallback: no `url()` support or images disabled */
+ cursor: url(images/grab.cur); /* fallback: Internet Explorer */
+ cursor: pointer; 
+ Chrome :1-21, Safari 4+;
+    cursor:    -moz-grab;
+     Firefox :1.5-26;
+    cursor: grab;/* W3C standards syntax, should come least*/
+   
+ 
+  
+	
+}
+.no-Margin{
+	margin-bottom: 0px;
+	
+}
+.panel-top-right{
+	
+	left:-9%;
+	top:7%;
+	z-index: 2;
+}
+
+.panel-bottom-align{
+
+    position:fixed;    
+    bottom: 0% !important;
+    right: 0%;
+	max-width: 79% !important;
+	
+  
+}
+.panel-bottom-align-main{
+
+    position:fixed;    
+    bottom: 0% !important;
+    right: 0%;
+	width: 80% !important;
+	
+  
+}
+
+.panel-bottom-align-main1{
+
+    position:fixed;    
+    bottom: 0% !important;
+    right: 0%;
+	width: 95% !important;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+.bottom-footer{
+	position: fixed;
+	right: 1%;
+	bottom: 0%;
+}
+.MassengerBox1{
+
+
+
+	/* padding-left: 2%; */
+	min-width: 100%;
+		width: 100%;
+}
+
+.tab1{
+	    float: left;
+    height: 20px;
+    min-width: 20px;
+    margin: 0;
+    padding: 0 5px 0 5px;
+    text-align: center;
+    background-color: white;
+}
+.inActive{
+	   opacity: .75;
+    
+}
+.clickable-Min{
+	 opacity: .3;
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    z-index:1;
+}
+
+.zoom-Icons{
+	 	 
+    width: 25px;
+    height: 25px;
+     border: none;
+    border-radius:10px;
+    
+}
+.panel-size{
+	/* max-width: 341px; 
+	max-height: 435px; */
+/* 	float: right; */
+	margin-bottom: 0px;padding-bottom: 0px;
+	margin: auto;
+	background: #f0f0fd;
+	background: rgba(240, 240, 253, 0.90);
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+	-webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+	-box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+}
+.dockable-experiment{
+	min-width:225px;
+ /* 	min-height:200px;  */
+	float:left;
+	position: fixed;
+	z-index: 2;
+}
+.dockable-experiment1{
+	min-width:250px;
+	float:left;
+	position: fixed;
+	z-index: 2;
+	margin-top: 42px;
+}
+
+
+.MassengerBox{
+	
+	
+
+	/* padding-left: 2%; */
+	min-width: 80%;
+		width: 80%;
+}
+
+
+.panel-default > .draggable1{
+    background: #990000; color: white;
+}
+
+
+
+  #draggable {
+
+    /* width: fit-content;
+    height: fit-content; */
+    padding-bottom: 0px;
+    
+
+}
+
+.draggable1  {
+	cursor: inherit;
+	cursor: move; /* fallback: no `url()` support or images disabled */
+	cursor: url(images/grab.cur); /* fallback: Internet Explorer */
+	cursor: pointer;
+	Chrome: 1 -21, Safari 4+;
+	cursor: -moz-grab;
+	Firefox: 1.5 -26;
+	cursor: grab; /* W3C standards syntax, should come least*/
+	min-height:38px;
+	position: auto;
+	min-width: 40px;
+/* 	min-width: fit-content; */
+	margin-top: 0px;
+	/*  top :0%;
+  right:0%; */
+	background-color: #990000;
+	transition: .1s all;
+
+	
+	}
+.draggable1:active {
+ cursor: url(images/grabbing.cur); 
+/*  cursor: -webkit-grabbing;
+    cursor:    -moz-grabbing;
+    cursor:         grabbing;  */
+}

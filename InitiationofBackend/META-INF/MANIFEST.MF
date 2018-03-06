@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: InitiationofBackend
+Bundle-SymbolicName: InitiationofBackend
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: InitiationofBackend.jar,
+ project/jars/servlet-api.jar,
+ project/jars/jxl-2.6.3.jar/jxl-2.6.3.jar,
+ project/jars/ojdbc6.jar,
+ hsqldb/lib/hsqldb.jar,
+ project/jars/itext-5.0.5.jar/itext-5.0.5.jar
+Export-Package: com.org

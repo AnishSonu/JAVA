@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Enter your name :<input type="text" for="name" placeholder="Enter your name" id="name">
+<div id="demo">
+					<h1>The XMLHttpRequest Object</h1>
+					<button type="button" onclick="loadDoc()">Customer Information</button>
+					
+				</div>
+
+					<script>
+						function loadDoc() {
+							var a = document.getElementById("name").value;
+												var xhttp = new XMLHttpRequest();
+												xhttp.onreadystatechange = function() {
+
+
+													
+												if (xhttp.readyState 
+														== 4 && xhttp.status == 200) {
+												document.getElementById("demo").innerHTML =
+													xhttp.responseText;
+											}
+												};
+													xhttp.open("GET", "ajax1.jsp?q="+a, true);
+	 /*  window.open("test.aspx?rowid="+ value1 + "& mode=" + 'data2','','scrollbars=no,resizable=yes,width=800,height=500'); 
+	
+	 xhttp.open("GET", "demo_get2.asp?fname=Henry&lname=Ford", true);
+		xhttp.open("POST", "ajax_test.asp", true);
+		xhttp.send("fname=Henry&lname=Ford");
+	  */
+													xhttp.send();
+											}
+					</script>
+
+<!-- 
+Synchronous XMLHttpRequest (async = false) is not recommended because the JavaScript will stop executing until the server
+ response is ready. If the server is busy or slow, the application will hang or stop.
+Synchronous XMLHttpRequest is in the process of being removed from the web standard, but this process can take many years.
+Modern developer tools are encouraged to warn about using synchronous requests and may throw an
+ InvalidAccessError exception when it occurs.
+ -->
+
+
+
+</body>
+
+
+
+</html>
+

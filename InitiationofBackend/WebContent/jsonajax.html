@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p>json:-javascript object notation Ajax :- asynchronous javascript and xml</p>
+<div id="demo">
+					<h1>The XMLHttpRequest Object</h1>
+					<button type="button" onclick="loadDoc()">json data fetching</button>
+					
+				</div>
+
+					<script>
+						function loadDoc() {
+							
+							
+												var xhttp = new XMLHttpRequest();
+												xhttp.onreadystatechange = function() {
+
+
+													
+												if(xhttp.readyState == 4 &&  xhttp.status == 200) {
+													var data = JSON.parse(xhttp.responseText);
+													alert("hi json data  "+(data[0]));
+													console.log(data[0]);
+													alert("  hello   "+(data[0].name));
+											}
+												};
+													xhttp.open("GET", "https://learnwebcode.github.io/json-example/animals-1.json", true);
+	
+													xhttp.send();
+											}
+					</script>
+</body>
+</html>

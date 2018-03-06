@@ -1,0 +1,323 @@
+.text-extra-smallsize {
+	font-size: 10px;
+	line-height: 1.1;
+
+
+}
+.left-align{
+	
+
+    float: left;
+	
+}
+.center-align{
+	text-align: center;
+}
+
+.home-right{
+	   right:0%;
+	position: absolute;
+}
+
+.img-upload{
+	padding-bottom:3px;
+}
+.ruler-seperator {
+	margin-left: 0;
+	text-align: right;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.addButtonIcon-div {
+	padding-left: 35px;
+	float: right;
+}
+
+.quickLinks-btn {
+	width: 67px;
+	height: 76px;
+	padding-bottom: 2px;
+}
+
+.text-extra-smallsize-center {
+	font-size: 10px;
+	line-height: 1.1;
+	float: left; 
+}
+
+.tableHeading {
+	text-align: center;
+}
+
+.left-aligned {
+	text-align: left;
+}
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.navbar-btn-customize {
+	/* padding: 10px 16px; */
+	margin-top:5px;
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	line-height: 1.33;
+	border: none;
+	/* padding-left: 10px; */
+	transition: transform .2s;
+}
+
+.navbar-btn-customize:hover {
+	/* -ms-transform: scale(1.5); IE 9
+	-webkit-transform: scale(1.5); Safari 3-8
+	transform: scale(1.5); */
+}
+
+.label-left {
+	float: left;
+}
+
+.los-input {
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.los-input:hover {
+	border-style: dotted;
+	font-weight: bold
+}
+
+.los-input:DISABLED {
+	cursor: default;
+	border-style: none;
+	font-weight: normal;
+}
+
+.los-input:hover {
+	border-color: #B71C1C
+}
+
+.los-input:ACTIVE {
+	border-color: #B71C1C;
+}
+
+.los-input:FOCUS {
+	outline: #B71C1C;
+	outline-color: #B71C1C;
+	border-color: #B71C1C;
+}
+
+.tooltip-inner {
+	background-color: #00acd6 !important;
+	/*!important is not necessary if you place custom.css at the end of your css calls. For the purpose of this demo, it seems to be required in SO snippet*/
+	color: #fff;
+}
+
+.tooltip.top .tooltip-arrow {
+	border-top-color: #00acd6;
+}
+
+.tooltip.right .tooltip-arrow {
+	border-right-color: #00acd6;
+}
+
+.tooltip.bottom .tooltip-arrow {
+	border-bottom-color: #00acd6;
+}
+
+.tooltip.left .tooltip-arrow {
+	border-left-color: #00acd6;
+}
+
+.thread-default {
+	color: #dbdbdb;
+}
+
+.thead-dark th {
+	color: #fff;
+	background-color: #212529;
+	border-color: #32383e
+}
+
+.btn-theme-blue {
+	width: 40px;
+	height: 40px;
+	color: blue;
+	background-color: #B3C6FF;
+	box-shadow: 0 0 0 1px transparent inset, 0 0 0 2px
+		rgba(255, 255, 255, 0.15) inset, 6px 6px 0 0 #ccc, 6px 6px 0 1px
+		rgba(0, 0, 0, 0.1), 6px 6px 3px 0px rgba(0, 0, 0, 0.3);
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.btn-theme-blue:HOVER {
+	background-color: #E8EAF6;
+}
+
+.btn-theme-red {
+	width: 40px;
+	height: 40px;
+	color: red;
+	background-color: #B71C1C;
+	box-shadow: 0 0 0 1px transparent inset, 0 0 0 2px
+		rgba(255, 255, 255, 0.15) inset, 6px 6px 0 0 #ccc, 6px 6px 0 1px
+		rgba(0, 0, 0, 0.2), 6px 6px 3px 0px rgba(0, 0, 0, 0.3);
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.btn-theme-red:HOVER {
+	background-color: #FF8A80;
+}
+
+.btn-theme-red:active {
+	top: 10px;
+}
+
+.btn-theme-red:FOCUS {
+	outline: medium;
+	-moz-outline-style: none;
+}
+
+.btn3d-new-sm {
+	font-size: 0.8em;
+	line-height: 0.8em;
+	max-width: 182px;
+	height: 32px;
+}
+
+.btn3d-new-sm:ACTIVE {
+	color: white;
+}
+
+.btn3d-new-sm:FOCUS {
+	color: white;
+}
+
+.btn3d-new-sm:HOVER {
+	color: white;
+}
+
+.btn3d-new {
+	position: relative;
+	border: 0;
+	border-radius: 3px;
+	margin: 15px 10px 0 0;
+	transition: all .09s linear;
+	box-shadow: 0 0 0 1px transparent inset, 0 0 0 2px
+		rgba(255, 255, 255, 0.15) inset, 6px 6px 0 0 #ccc, 6px 6px 0 1px
+		rgba(0, 0, 0, 0.2), 6px 6px 3px 0px rgba(0, 0, 0, 0.3);
+	outline: medium none;
+	-moz-outline-style: none;
+	margin-bottom: 15px;
+}
+
+.btn3d-new :active {
+	top: 7px;
+}
+
+.btn3d-new :focus {
+	outline: medium none;
+	-moz-outline-style: none;
+}
+/* .btn3d-new .btn-default {
+    background-color:#f5f5f5;
+}
+ .btn3d-new:hover{
+	background-color: #FEAD21;
+	color: black;
+	
+	  box-shadow:0 0 0 1px transparent inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 6px 6px 0 0 #dd4b39, 6px 6px 0 1px rgba(0,0,0,0.2), 6px 6px 3px 0px rgba(0,0,0,0.3);
+}  */
+
+/* for social colors */
+.btn-facebook {
+	background-color: #3b5998;
+	color: #fff;
+}
+
+.table-font {
+	font-size: 0.9em;
+	line-height: 0.8em;
+}
+
+.btn-google {
+	background-color: #dd4b39;
+	color: #fff;
+}
+
+.btn-twitter {
+	background-color: #2ba9e1;
+	color: #fff;
+}
+.text-alig2
+{
+ 
+ 
+ 
+    margin-left: 29px;
+    margin-right: 32px;
+ 
+}
+.text-alig3
+{
+ 
+ 
+ 
+    margin-left: 22px;
+    margin-right: 32px;
+ 
+}
+.text-alig4
+{
+ 
+ 
+ 
+    margin-left: 50px;
+    margin-right: 32px;
+ 
+}
+.btn-pinterest {
+	background-color: #cb2027;
+	color: #fff;
+}
+
+.btn-tumblr {
+	background-color: #2c4762;
+	color: #fff;
+}
+
+.btn-facebook:hover, .btn-facebook:focus, .btn-twitter:hover,
+	.btn-twitter:focus, .btn-google:hover, .btn-google:focus, .btn-tumblr:hover,
+	.btn-tumblr:focus, .btn-pinterest:hover, .btn-pinterest:focus {
+	color: #ebebeb;
+}
+
+.box-shadow{
+	margin: auto;
+	background: white;
+	/* background: rgba(240, 240, 253, 0.90); */
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 0 18px black;
+	-webkit-box-shadow: 0 0 18px black;
+	-box-shadow: 0 0 18px black;
+
+	margin:25px 25px 25px 25px;
+
+	 padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    height: 100%;
+} 
